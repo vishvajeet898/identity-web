@@ -11,7 +11,8 @@ function Footer(props) {
         <div className={`grid grid-flow-row md:grid-flow-col bg-[#2EC5CE] w-full`}>
             <div className={`flex flex-col mx-10 md:ml-40 mt-24`}>
                 <p className={`text-4xl text-black font-bold`}>Identity</p>
-                <p className={`text-lg text-black font-normal md:w-2/3 mt-2`}>Download the app to connect with millions of people lorem ipsiounkdbbd wdkkdbkbdqwjdvbkq dkqBDKbwd qKWDBKBWD, WDKBQD</p>
+                <p className={`text-lg text-black font-normal md:w-2/3 mt-2`}>Download the app to connect with millions of people. Identity helps people to create themselves since life is all about creating yourself from Ground
+                    zero</p>
                 <p className={`text-lg text-black font-normal mt-10`}>Get the App</p>
                 <div className={`flex flex-row gap-4`}>
                     <Button className={`bg-black md:w-40`} variant="filled" size={`sm`} fullWidth={false}>

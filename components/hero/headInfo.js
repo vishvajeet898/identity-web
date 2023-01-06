@@ -13,12 +13,9 @@ function HeadInfo(props) {
     return (
         <div className={`flex flex-col w-full items-center md:items-start md:w-2/3`}>
             <p className={`text-4xl md:text-6xl font-bold text-black pl-12 md:pl-24 pt-12 md:pt-24`}>Connect with different Identities</p>
-            <p className={`text-xl font-normal text-black  pl-12 md:pl-24 py-4`}>Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Sed erat nibh tristique ipsum.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed erat nibh tristique ipsum.</p>
-
+            <p className={`text-xl font-normal text-black  pl-12 md:pl-24 py-4`}>Identity is a end to end encryption data sharing platform where users can create and share thier identity and ge connected with like-minded people within a sec by tapping two phones.Identity is a end to end encryption data sharing platform where users can create and share thier identity and ge connected with like-minded people within a sec by tapping two phones.</p>
             <div className={`flex flex-row gap-4`}>
-                <Button className={`bg-black md:w-40 md:ml-24`} variant="filled" size={`sm`} fullWidth={false}>
+                <Button onClick={() => { window.location.href = "https://drive.google.com/drive/folders/17QORGFFRYa0teoRUhBQPE0sETO-pnUQh?usp=sharing"; } }  className={`bg-black md:w-40 md:ml-24`} variant="filled" size={`sm`} fullWidth={false}>
                     <div className={`flex flex-row gap-2 items-center`}>
                         <Image src={playStoreLogo} alt={"playstore"} className={`w-8 h-8 md:w-8 md:h-8`}/>
                         <div className={`flex flex-col items-start`}>
@@ -32,7 +29,7 @@ function HeadInfo(props) {
                         <Image src={appstoreLogo} alt={"playstore"} className={`w-8`}/>
                         <div className={`flex flex-col items-start`}>
                             <p>GET IT ON</p>
-                            <p>Google Play</p>
+                            <p> Apple Store</p>
                         </div>
                     </div>
                 </Button>
